@@ -17,7 +17,7 @@ end
 
 
 function autoload-fish-config_update --on-event autoload-fish-config_update
-    echo 'updated'
+    set_color bryellow; echo 'updated'
 end
 
  
