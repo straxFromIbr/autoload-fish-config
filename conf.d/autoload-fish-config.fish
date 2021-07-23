@@ -17,8 +17,8 @@ end
 
 
 function autoload-fish-config_update --on-event autoload-fish-config_update
-    set_color -ou -b bryellow  brred
-    echo 'ﾜｲﾙﾄﾞｽｸﾘｰﾝﾊﾞﾛｯｸ'
+    set_color -o  bryellow 
+    echo 'Please exec `set -U _fish_myconf_dir /path/to/your/configuration/files/`'
     set_color normal
 end
 
