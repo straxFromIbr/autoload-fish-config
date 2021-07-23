@@ -16,6 +16,8 @@ function _autoload_fish_config -e fish_prompt
 end
 
 
-
+function _autoload_fish_config_install --on-event autoload-fish-config_update
+    echo 'updated'
+end
 
  
