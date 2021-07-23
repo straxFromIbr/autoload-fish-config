@@ -1,4 +1,4 @@
-function _reload_myconf -e fish_prompt
+function _autoload_fish_config -e fish_prompt
     if status is-interactive
        set new_sha1sum ( cat $_fish_myconf_dir/.git/refs/heads/main )
        if test -z $_myconf_sha1sum
