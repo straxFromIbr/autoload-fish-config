@@ -16,7 +16,7 @@ function autoload-fish-config -e fish_prompt
 end
 
 
-function autoload-fish-config_update --on-event autoload-fish-config_update
+function autoload-fish-config_install --on-event autoload-fish-config_install
     set_color -o  bryellow 
     echo 'PLEASE EXEC `set -U _fish_myconf_dir /path/to/your/configuration/files/`'
     echo 'Read Document at https://github.com/straxFromIbr/autoload-fish-config'
