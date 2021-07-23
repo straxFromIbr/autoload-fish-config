@@ -9,8 +9,8 @@ fishの設定ファイルをfisherプラグインとして管理します。
     ```
     .config/fish/myconf
     ├── completions
-    │   ├── hoge.fish
-    │   └── hige.fish
+    │        ├── hoge.fish
+    │        └── hige.fish
     ├── conf.d
     │   ├── hoge.fish
     │   └── hige.fish
