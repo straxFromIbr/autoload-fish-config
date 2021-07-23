@@ -1,4 +1,4 @@
-function _autoload_fish_config -e fish_prompt
+function autoload-fish-config -e fish_prompt
     if status is-interactive
        set new_sha1sum ( cat $_fish_myconf_dir/.git/refs/heads/main )
        if test -z $_myconf_sha1sum
@@ -16,7 +16,7 @@ function _autoload_fish_config -e fish_prompt
 end
 
 
-function _autoload_fish_config_install --on-event autoload-fish-config_update
+function autoload-fish-config_update --on-event autoload-fish-config_update
     echo 'updated'
 end
 
