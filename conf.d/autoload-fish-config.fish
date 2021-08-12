@@ -12,7 +12,7 @@ function autoload-fish-config -e fish_prompt
            set -U _myconf_sha1sum $new_sha1sum
        else
            if test $_myconf_sha1sum != $new_sha1sum
-               echo 'config update'
+               echo 'config updated ✨'
                fisher update $_fish_myconf_dir > /dev/null &
               set -U _myconf_sha1sum $new_sha1sum
            end
