@@ -21,5 +21,3 @@ fishの設定ファイルをfisherプラグインとして管理します。
 3. 設定ファイルを移行してください。
 3. 完了！
 
-## 連絡先
-- [賀賀(@PotatoHotate) / Twitter](https://twitter.com/PotatoHotate)
